@@ -1,0 +1,15 @@
+dataset : miniImageNet
+
+    network : conv4
+        1-shot Results:
+        UN: 37.80 ± 0.17%
+        L2N: 37.14 ± 0.17%
+        CL2N: 39.79 ± 0.17%
+
+        5-shot Results:
+        UN: 52.59 ± 0.17%
+        L2N: 51.92 ± 0.17%
+        CL2N: 52.07 ± 0.16%
+    
+    network : densenet
+    
